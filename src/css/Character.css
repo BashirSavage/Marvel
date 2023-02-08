@@ -1,0 +1,165 @@
+.herous {
+  width: 1135.6px;
+  margin-left: 166px;
+}
+
+.random-herous {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  width: 550px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.block-in-block {
+  width: 475px;
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 40px 35px 35px;
+}
+
+.foto-herous {
+  width: 180px;
+  height: 180px;
+}
+
+.about-herous {
+  width: 265px;
+  margin: 0;
+}
+
+.hero-name {
+  margin: 0px;
+  height: 29px;
+  overflow: hidden;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.herous-p {
+  height: 90px;
+  overflow: hidden;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.homepage {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #9f0013;
+  border: none;
+}
+
+.wiki {
+  width: 101px;
+  background: #5c5c5c;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+  border: none;
+}
+
+.right-side {
+  width: 585.6px;
+  background: #232222;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.right-block {
+  margin-left: 40px;
+  margin-top: 35px;
+}
+
+.p1 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.p2 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.tryit {
+  background: #9f0013;
+  border: none;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.card-block {
+  width: 800px;
+  margin-left: 153px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.herous-card {
+  width: 200px;
+  height: 318px;
+  background: #232222;
+  margin: 30px 12.5px;
+}
+
+.herous-card:hover{
+  filter: drop-shadow(0px 5px 20px #9F0013);
+}
+
+.cards-herous {
+  width: 200px;
+  height: 200px;
+}
+
+.name-herou {
+  width: 170px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 15px 15px 15px auto;
+}
