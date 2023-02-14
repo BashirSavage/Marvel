@@ -5,11 +5,12 @@
 
 .header{
     width: 1100px;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 166px 50px 174px;
+  margin: 50px 0px;
+  margin-left: 166px;
+  
 }
 
 .marvel{
@@ -37,6 +38,10 @@ margin-right: 8px;
 text-decoration: none;
 }
 
+.characters:focus-within{
+    color: #9F0013;
+}
+
 .comics{
     font-family: 'Roboto Condensed';
 font-style: normal;
@@ -48,3 +53,6 @@ margin-left: 8px;
 text-decoration: none;
 }
 
+.comics:focus{
+    color: #9F0013;
+}

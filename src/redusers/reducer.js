@@ -1,6 +1,8 @@
 const initialState = {
     characters: [],
-    randomCharacter: {}
+    randomCharacter: {},
+    selectCharacter: {},
+    comics: []
 }
 
 export const reducer = (state = initialState, action) => {
@@ -11,11 +13,23 @@ export const reducer = (state = initialState, action) => {
                 characters: action.payload,
                 randomCharacter: action.payload[0]
             })
-            case "random/character":
+        case "random/character":
                 return({
                     ...state,
-                    randomCharacter: state.characters[Math.floor(Math.random(0, 97) * 100)]
+                    randomCharacter: state.characters[Math.floor(Math.random() * 98)]
                 })
+        case "select/character":
+                    return({
+                        ...state,
+                        selectCharacter: action.payload
+
+                    })
+                    case "upload/comics":
+                        return({
+                            ...state,
+                            comics: action.payload
+                        })
+                      
        default: 
        return state
         
